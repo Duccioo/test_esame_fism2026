@@ -1,0 +1,32 @@
+header {
+    background-color: aquamarine;
+    padding: 80px 0;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: rgba(43, 23, 95, 0.841);
+    margin-top: 5%;
+    color: aliceblue;
+    padding: 3%;
+
+}
+
+body {
+    background-color: rgb(98, 198, 218);
+}
+
+
+.card {
+    border: 0;
+    border-radius: 20px;
+}
+
+
+.spiegone {
+
+    border-radius: 20px;
+    background-color: white;
+    padding: 5%;
+}

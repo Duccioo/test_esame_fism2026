@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mini Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="autori.html">Autori</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <header>
+            <h1>Benvenuto nel mio blog personale!</h1>
+            <p>Sito Multipagina che mostra vari post utilizzando chiamate api a jsonplaceholder</p>
+        </header>
+
+        <main class="container">
+            <section class="spiegone">
+                <h2>Che Cosa fa il Sito</h2>
+                <p>Il sito serve a mostrare post e autori usando jsonplaceholder, prende post casuali e le renderizza a schermo in modo facile</p>
+                <p>E' possibile spostarsi nelle varie sezioni usando la navbar</p>
+                <ul>
+                    <li>
+                        La pagina <a href="posts.html">Posts</a> mostra i vari post usando la chiamata API: https://jsonplaceholder.typicode.com/posts
+                    </li>
+                    <li>
+                        La pagina <a href="autori.html">Autori</a> mostra autori di finzione usando la chiamata API: https://jsonplaceholder.typicode.com/users 
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Sezioni Principali</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="badge">Post</h3>
+                                <h4 class="card-title">Post Dinamici</h4>
+                                <p class="card-text">Mostra i post caricati dalla chiamata API</p>
+                            </div>
+                        </div>
+                </div>
+                <!--  -->
+                <div class="col-md-4">
+                        <div class="card ">
+                            <div class="card-body">
+                                <h3 class="badge">Autori</h3>
+                                <h4 class="card-title">Autori Dinamici</h4>
+                                <p class="card-text">Mostra gli autori presenti che hanno scritto i vari post caricati dalla chiamata API</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!--  -->
+                <div class="col-md-4">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h3 class="badge">Home</h3>
+                            <h4 class="card-title">Pagina Principale</h4>
+                            <p class="card-text">Serve come homepage del progetto per dare un ingresso al sito e una veloce panoramica</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+
+        <footer>
+            <h3>Autore: <strong> Meconcelli Duccio</strong></h3>
+            <p>Il codice del sito è disponibile sulla repository <a href="https://github.com/Duccioo/test_esame_fism2026">test_esame_fism2026</a></p>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
